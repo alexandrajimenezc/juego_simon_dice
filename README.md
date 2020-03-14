@@ -10,7 +10,7 @@ _Crea una carpeta luego descarga los 3 archivos : (html , css y js)._
 _Tener un browser(Chrome , Firefox)_
 
 
-###Ejemplo:
+#### Ejemplo:
 ```
 - CREO CARPETA: mkdir juego_simon_dice   
 - DESCARGO ARCHIVOS: Download ZIP  
@@ -36,6 +36,6 @@ _Tener un browser(Chrome , Firefox)_
  - USANDO Visual Studio Code  
 
 
-### Licencia 
+##### Licencia 
  - mira el archivo LICENSE.md para detalles
 
