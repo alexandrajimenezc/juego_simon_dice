@@ -16,7 +16,7 @@ Tener un browser(Chrome , Firefox)
 -DESCARGO ARCHIVOS: Download ZIP
 -Luego hago click en el html (abrir con chrome)
 -**LISTO , YA PUEDES EMPEZAR A JUGAR
-
+![juego](https://github.com/alexandrajimenezc/juego_simon_dice/blob/master/simondice.png)
 
 
 ###Construido
