@@ -1,0 +1,237 @@
+*{
+  
+    font-family: 'sans-serif'
+    
+  }
+  
+        body {
+            
+                margin: 0;
+                background:linear-gradient(#dd88ff,#c1e2b4)
+                }
+        
+          
+        
+        footer{
+            
+            background: #c1e2b4; 
+                }
+        .gameboard {
+  
+          height: 100vh;
+          width: 100vh;
+          border-radius: 50%;
+          overflow: hidden;
+          margin: 0 auto;
+          max-height: 60vh;
+          max-width: 60vh;
+        
+          
+        }
+        .gameboard:hover{
+          cursor: pointer;
+         
+        }
+  
+  
+  
+        .color {
+          width: 50%;
+          height: 50%;
+          display: inline-block;
+        }
+  
+        .left {
+          float: left;
+        }
+  
+        .right {
+          float: left;
+        }
+  
+        .azul {
+          background: #2255b3;
+        }
+  
+        .azul.light {
+          background: #5884d6;
+        }
+  
+        .rosado {
+          background: #e43dc0;
+        }
+  
+        .rosado.light {
+          background: #d875c3;
+        }
+  
+        .naranja {
+          background: #f0932b;
+        }
+  
+        .naranja.light {
+          background: #ffbe76;
+        }
+  
+        .verde {
+          background: #6ab04c;
+        }
+  
+        .verde.light {
+          background: #badc58;
+        }
+  
+        .btn-start {
+          width: 400px;
+          height: 100px;
+          background: #ecf0f1;
+          color: #2c3e50;
+          font-size: 2.5rem;
+          position: absolute;
+          top: calc(60% - 18px);
+          left: calc(50% - 200px);
+          color:#fff;
+          border: rgba(0, 0, 0, 0.3);
+          text-shadow: #222 2px 2px;
+        
+        }
+  
+        .hide {
+          display: none;
+        }
+      
+  
+     
+        img{
+          width: 30px;
+          height: 30px;
+        
+      }
+  
+  
+  button{
+  border-radius: 45px;
+  }
+  
+        h1,p{
+  text-align: center;
+  
+        }
+      
+      header{
+          width:100%;
+          background:#dd88ff;
+         
+      }
+    
+      
+      #btn-menu {
+          display: none;
+          
+      }
+      
+      header label {
+          display: none;
+          width: 30px;
+          height: 30px;
+          padding: 10px;
+          border-right: 1px solid #fff;
+      }
+      
+      header label:hover {
+      cursor: pointer;
+      background: rgba(0, 0, 0, 0.3);
+      }
+      
+      .menu ul {
+          margin:0;
+          list-style: none;
+          padding: 0;
+          display: flex;
+          flex-direction: row;
+        
+      }
+      
+      .menu li{
+         border-right: 1px solid rgba(0,0,0,0.1);
+         border-bottom: 1px solid rgba(0,0,0,0.1);
+      }
+      .menu li:hover{
+          background: rgba(0,0,0,0.3)
+      }
+      
+      .menu li a {
+          display: block;
+          padding: 15px 20px;
+          color:#fff;
+          text-decoration: none;
+      }
+      .git_logo{
+       margin-top: 50px;
+      }
+  
+      .name{
+  text-decoration: none;
+      }
+  
+      svg{
+        width: 30px;
+        height: 30px;
+      }
+      section,footer {
+        text-align: center;
+    
+       
+      }
+  
+  
+      @media(max-width:768px){
+      
+          header label{
+              display: block;
+              
+          }
+          .menu{
+              position: absolute;
+              background:#dd88ff;
+              width:70%;
+              margin-left: -70%;
+              transition: all 0,5s;
+          }
+      
+          .menu ul{
+              flex-direction:column;
+          }
+          .menu li{
+              border-top: 1px solid #fff;
+          }
+      #btn-menu:checked ~ .menu {
+                 margin :0;
+      }
+       .btn-start {
+          width: 300px;
+          height: 50px;
+          background: #ecf0f1;
+          color: #2c3e50;
+          font-size: 1.5rem;
+          position: absolute;
+          top: calc(85% - 27px);
+          left: calc(50% - 155px);
+          color:#fff;
+          border: rgba(0, 0, 0, 0.3);
+          text-shadow: #222 2px 2px;
+        
+        }
+    }
+  
+  
+    @media (max-width:460px) {
+      #main {
+        margin: 0;
+      }
+    
+    }
+    
+  
+    
+    
