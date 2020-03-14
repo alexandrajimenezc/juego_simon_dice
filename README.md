@@ -12,10 +12,10 @@ _Tener un browser(Chrome , Firefox)_
 
 ###Ejemplo:
 ```
--CREO CARPETA: mkdir juego_simon_dice   
--DESCARGO ARCHIVOS: Download ZIP  
--Luego hago click en el html (abrir con chrome)  
--**LISTO , YA PUEDES EMPEZAR A JUGAR  
+- CREO CARPETA: mkdir juego_simon_dice   
+- DESCARGO ARCHIVOS: Download ZIP  
+- Luego hago click en el html (abrir con chrome)  
+-LISTO , YA PUEDES EMPEZAR A JUGAR  
 ```
 
 
@@ -32,10 +32,10 @@ _Tener un browser(Chrome , Firefox)_
 
 
 #### Construido
- -Durante la formación onlinde de PLATZI .  
- -USANDO Visual Studio Code  
+ - Durante la formación onlinde de PLATZI .  
+ - USANDO Visual Studio Code  
 
 
-###Licencia 
+### Licencia 
  - mira el archivo LICENSE.md para detalles
 
